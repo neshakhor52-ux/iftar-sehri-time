@@ -9,7 +9,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, ContextTyp
 
 BD_TZ = ZoneInfo("Asia/Dhaka")
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7521367456:AAG3GcreM83DdISiSsBVPdLV8sucb3YcXOc").strip()
 DATA_FILE = os.getenv("DATA_FILE", "iftar_sehri_2026_bd_districtwise.json")
 
 HELP_TEXT = (
